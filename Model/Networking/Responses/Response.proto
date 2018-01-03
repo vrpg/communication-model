@@ -1,0 +1,9 @@
+syntax = "proto3";
+package Model.Networking.Responses;
+
+import "Model/Networking/Responses/ResponseType.proto";
+
+message Response {
+    ResponseType response_type = 1;
+    bytes response_message = 2;
+}

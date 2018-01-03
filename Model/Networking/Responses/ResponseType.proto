@@ -1,0 +1,6 @@
+syntax = "proto3";
+package Model.Networking.Responses;
+
+enum ResponseType {
+    UNKNOWN = 0;
+}

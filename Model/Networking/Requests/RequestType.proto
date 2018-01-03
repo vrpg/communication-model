@@ -1,0 +1,6 @@
+syntax = "proto3";
+package Model.Networking.Requests;
+
+enum RequestType {
+    UNKNOWN = 0;
+}
