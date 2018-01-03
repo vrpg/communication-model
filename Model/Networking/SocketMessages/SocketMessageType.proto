@@ -4,10 +4,9 @@ option java_package = "com.vrpg.communication.model.networking.socketmessages";
 option java_multiple_files = true;
 
 enum SocketMessageType {
-    UNKNOWN = 0;
-    JOIN = 1;
-    MOVE = 2;
-    LEAVE = 3;
-    GET_STATE = 4;
-    STATE = 5;
+    JOIN_SOCKET = 0;
+    MOVE_SOCKET = 1;
+    LEAVE_SOCKET = 2;
+    GET_STATE_SOCKET = 3;
+    STATE_SOCKET = 4;
 }

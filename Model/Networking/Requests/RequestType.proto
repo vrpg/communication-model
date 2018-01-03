@@ -4,5 +4,5 @@ option java_package = "com.vrpg.communication.model.networking.requests";
 option java_multiple_files = true;
 
 enum RequestType {
-    UNKNOWN = 0;
+    UNKNOWN_REQUEST = 0;
 }
