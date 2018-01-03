@@ -7,6 +7,6 @@ option java_multiple_files = true;
 import "Model/Networking/Responses/ResponseType.proto";
 
 message Response {
-    ResponseType response_type = 1;
+    Model.Networking.Responses.ResponseType response_type = 1;
     bytes response_message = 2;
 }

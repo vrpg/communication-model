@@ -8,6 +8,6 @@ import "Model/Networking/Envelopes/AuthInfo.proto";
 import "Model/Networking/SocketMessages/SocketMessage.proto";
 
 message SocketEnvelope {
-    AuthInfo auth_info = 1;
-    SocketMessage socket_message = 2;
+    Model.Networking.Envelopes.AuthInfo auth_info = 1;
+    Model.Networking.SocketMessages.SocketMessage socket_message = 2;
 }

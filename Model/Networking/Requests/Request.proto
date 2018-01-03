@@ -7,6 +7,6 @@ option java_multiple_files = true;
 import "Model/Networking/Requests/RequestType.proto";
 
 message Request {
-    RequestType request_type = 1;
+    Model.Networking.Requests.RequestType request_type = 1;
     bytes request_message = 2;
 }
