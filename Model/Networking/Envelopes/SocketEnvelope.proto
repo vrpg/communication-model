@@ -5,7 +5,9 @@ option java_package = "com.vrpg.communication.model.networking.envelopes";
 option java_multiple_files = true;
 
 import "Model/Networking/Envelopes/AuthInfo.proto";
+import "Model/Networking/SocketMessages/SocketMessage.proto";
 
 message SocketEnvelope {
     AuthInfo auth_info = 1;
+    SocketMessage socket_message = 2;
 }

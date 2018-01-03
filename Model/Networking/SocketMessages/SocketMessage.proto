@@ -1,0 +1,12 @@
+syntax = "proto3";
+package Model.Networking.SocketMessages;
+
+option java_package = "com.vrpg.communication.model.networking.socketmessages";
+option java_multiple_files = true;
+
+import "Model/Networking/SocketMessages/SocketMessageType.proto";
+
+message SocketMessage {
+    SocketMessageType message_type = 1;
+    bytes message = 2;
+}

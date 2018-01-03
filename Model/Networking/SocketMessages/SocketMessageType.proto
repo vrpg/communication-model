@@ -1,0 +1,14 @@
+syntax = "proto3";
+package Model.Networking.SocketMessages;
+
+option java_package = "com.vrpg.communication.model.networking.socketmessages";
+option java_multiple_files = true;
+
+enum SocketMessageType {
+    UNKNOWN = 0;
+    JOIN = 1;
+    MOVE = 2;
+    LEAVE = 3;
+    GET_STATE = 4;
+    STATE = 5;
+}
