@@ -5,4 +5,7 @@ option java_multiple_files = true;
 
 message JoinMessage {
     string event_source = 1;
+    double x = 2;
+    double y = 3;
+    double z = 4;
 }
