@@ -6,5 +6,5 @@ option java_multiple_files = true;
 import "Model/Networking/Envelopes/AuthInfo.proto";
 
 message RequestEnvelope {
-    Model.Networking.Envelopes.AuthInfo auth_info = 1;
+    AuthInfo auth_info = 1;
 }

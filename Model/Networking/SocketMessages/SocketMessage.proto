@@ -6,6 +6,6 @@ option java_multiple_files = true;
 import "Model/Networking/SocketMessages/SocketMessageType.proto";
 
 message SocketMessage {
-    Model.Networking.SocketMessages.SocketMessageType message_type = 1;
+    SocketMessageType message_type = 1;
     bytes message = 2;
 }
