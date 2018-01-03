@@ -1,6 +1,9 @@
 syntax = "proto3";
 package Model.Networking.Responses;
 
+option java_package = "com.vrpg.communication.model.networking.responses";
+option java_multiple_files = true;
+
 import "Model/Networking/Responses/ResponseType.proto";
 
 message Response {
