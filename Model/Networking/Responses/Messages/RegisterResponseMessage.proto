@@ -4,7 +4,7 @@ option java_package = "com.vrpg.communication.model.networking.responses.message
 option java_multiple_files = true;
 
 message RegisterResponseMessage {
-    string message = 0;
-    string access_token = 1;
-    string refresh_token = 2;
+    string message = 1;
+    string access_token = 2;
+    string refresh_token = 3;
 }
