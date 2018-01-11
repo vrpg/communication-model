@@ -7,4 +7,5 @@ import "Model/Networking/Responses/Response.proto";
 
 message ResponseEnvelope {
     Response response = 1;
+    string message = 2;
 }
